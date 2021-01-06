@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bayu Suryo Aji</title>
+</head>
+
+<body>
+    <button id="btn1">Click Me!</button>
+    <button id="btn2">hit me!</button>
+   <input type="text" id="input1"/>
+    <img id="img" src="img1.jpeg">
+    <script>
+        function onClick(){
+            console.log('tombol sudah diklik')
+            window.alert('ngapain klik-klik?')
+           
+        }
+        function onMove(){
+            window.alert('masih saya pantau')
+        }
+        function onClick2(){
+            console.log("you have drop something")
+            alert('pake klik klik lagi, ngajak ribut lu?')
+        }
+        function input(){
+            
+        }
+        document.querySelector('#btn1').addEventListener('click', onClick)
+        document.querySelector('#btn2').addEventListener('dblclick',onClick2)
+        document.querySelector('#img').addEventListener('mousemove',onMove)
+        document.querySelector('#input1').addEventListener('keyup',input)
+
+
+
+    </script>
+</body>
+</html>

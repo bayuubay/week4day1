@@ -1,0 +1,13 @@
+{
+  "name": "events",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "suhu": "node index.js",
+    "test":" node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
